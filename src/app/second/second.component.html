@@ -1,0 +1,5 @@
+<p>second works!</p>
+<input #todoInput type="text" placeholder="Enter a todo" />
+<button (click)="addTodo(todoInput.value); todoInput.value = ''">
+  Add Todo
+</button>
